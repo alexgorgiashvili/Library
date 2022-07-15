@@ -10986,10 +10986,10 @@ body .section {
 }
 .home_cont_text {
   font-size: 55px;
-  padding-top: 100px;
-  color: #1027c6;
+  padding-top: 46px;
+  color: #455c6c;
   text-align: center;
-  font-weight: 600;
+  font-weight: 800;
 }
 .srch-btn:focus {
   outline: none;

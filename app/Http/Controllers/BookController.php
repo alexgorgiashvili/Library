@@ -20,7 +20,7 @@ class BookController extends Controller
     public function index(Request $request)
     {
         $authors = Author::all();
-        $books = Book::orderBy('title')->paginate(12);
+        $books = Book::orderByDesc('id')->paginate(12);
         // $sorting = explode('_', $request->sort) ?? '';
         if ($request->filter_by) {
             $booksFiltered = Book::filterBooks($request);
